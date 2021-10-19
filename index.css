@@ -51,7 +51,9 @@ body{
     font-weight: normal;    
     font-size: 17px;
     transition: 0.5s;
-    border-radius: 10px;
+    border-radius: 16px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
 
   }
   
@@ -59,6 +61,10 @@ body{
     background-color: #ffecd7;
     color: #000000;
     font-weight: bold;
+  }
+
+  .accordion:hover{
+    border-radius: 16px;
   }
   
   .accordion:after {
@@ -72,18 +78,25 @@ body{
     transform: rotate(-180deg);
    
   }
-  
+
+
   .card {
     font-family: Lato;
     color: #000000;
     font-style: normal;
     border-radius: 10px;
+   
     font-weight: normal;
     padding: 0 18px;
     height: 400px;
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 5px;
+
+    filter: drop-shadow(0px 72px 176px rgba(63, 63, 63, 0.07)) drop-shadow(0px 21.7059px 53.0588px rgba(63, 63, 63, 0.0386578)) drop-shadow(0px 9.01552px 22.0379px rgba(63, 63, 63, 0.0198723)) drop-shadow(0px 3.26074px 7.97069px rgba(63, 63, 63, 0.00720662));
+
+    
+    border-radius: 16px;
+    border-top-right-radius: 0 ;
+    border-top-left-radius: 0;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
