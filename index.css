@@ -47,7 +47,7 @@ body{
   font-style: normal;
   font-weight: normal;    
   font-size: 17px;
-  transition: 0.5s;
+  transition: 0.2s;
   border-radius: 16px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -173,5 +173,8 @@ height: 150px;
   }
   .col2{
     width: 50%;
+  }
+  .card{
+    transition: max-height 0.05s ease-out;
   }
 }
