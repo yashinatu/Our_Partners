@@ -174,7 +174,10 @@ height: 150px;
   .col2{
     width: 50%;
   }
+  .accordion{
+    transition: 0.05s !important;
+  }
   .card{
-    transition: max-height 0.05s ease-out;
+    transition: max-height 0.05s ease-out !important;
   }
 }
