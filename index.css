@@ -7,7 +7,7 @@ body{
   background-color: #fdfdfd;
 }
 
-#title{
+.title{
   position: relative;
   height: 8px;
   left: 0px;
@@ -23,7 +23,7 @@ body{
   color: #000000;
 }
 
-#ruler{
+.ruler{
   position: relative;
   width: 100%;
   top: auto;
@@ -109,7 +109,7 @@ body{
     color: #000000;
 }
 
-#Know{
+.Know{
   font-family: Lato;
   font-style: normal;
   font-weight: 800;
@@ -126,12 +126,24 @@ body{
   display: table;
   clear: both;
 }
-
+table{
+  width: 100%;
+  max-width: 100%;
+}
+.col2{
+width: 20%;
+}
+.image{
+  width: 40%;
+}
 img{
   height: 100px;
   max-width: 100%;
-  max-height: 50%;
-  margin-left: 8vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #second{
@@ -144,8 +156,8 @@ height: 150px;
 }
 
 @media (max-width:629px) {
-  #image {
-    display: none;
+  .image {
+    display: none !important;
   }
   
   #second{
@@ -154,5 +166,11 @@ height: 150px;
   }
   .card{
     font-size: 12px;
+  }
+  .far{
+    display: none !important;
+  }
+  .col2{
+    width: 50%;
   }
 }
