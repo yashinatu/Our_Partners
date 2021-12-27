@@ -25,13 +25,137 @@
 
       <tr>
       <td class="col2"><b>Institute Website:</b></td>
-        <td>  <a id = "unilink" href="www.westernsydney.edu.au"><i class="far fa-envelope" >&nbsp;</i>www.westernsydney.edu.au</a> </td>
+        <td>  <a class = "unilink" href="www.westernsydney.edu.au"><i class="far fa-envelope" >&nbsp;</i>www.westernsydney.edu.au</a> </td>
       </tr>
 
       <tr>
         <td class="col2"> <a class = "Know" href="#">Know More</a><br> </td>
       </tr>
     </table>
+    <br>
+    <hr >
+    <button class="accordion accordion2"> Professor Arumugam Sathasivan</button>
+
+    <div class = "card2">
+        <br>
+
+        <div class = "row">
+            <div class = "column">  
+                <div class="person_image"><img src="img.jpg" alt="img"></div>
+            </div>
+
+            <div class = "column column2">
+                <div class = "name"> Arumugam Sathasivan </div>
+                <hr class = "name-hr">
+                    <table>
+                      <tr>
+                        <td class="column2">
+                         <b>Qualification: </b> 
+                        </td>
+                        <td>
+                          PhD, University of Tokyo
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td class="column2">
+                         <b>Designation:</b>  
+                        </td>
+                        <td>
+                          Professor
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td class="column2">
+                         <b>Employer: </b> 
+                        </td>
+                        <td>
+                          Western Sydney University
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td class="column2">
+                         <b>Contact Details:</b> 
+                        </td>
+                        <td>
+                          <i class="far fa-envelope"></i>iam@gmail.com
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          <div><br><a class = "Know" href="#">Know More</a></div> 
+                        </td>
+                        <td>
+                          <i class="fas fa-phone-alt"></i>+6123345667
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>
+                          
+                        </td>
+                        <td>
+                          
+                        </td>
+                      </tr>
+                    </table>
+
+
+            </div>
+
+        </div>
+        <br>
+        <hr  >
+
+    </div>
+
+
+
+
+
+
+
+    <button class="accordion accordion2"> Dr Brenda Dobia</button>
+    <div class = "card2">
+      
+      <p>accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed.  </p>
+
+  </div>
+    <button class="accordion accordion2"> Professor Ataur Rahman</button>
+    <div class = "card2">
+        <p>accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed.  </p>
+    </div>
+    <button class="accordion accordion2"> Professor Basant Maheshwari</button>
+    <div class = "card2">
+        <p>accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed.  </p>
+    </div>
+    <button class="accordion accordion2"> Dr Chris Derry</button>
+    <div class = "card2">
+        <p>accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed.  </p>
+    </div>
+    <button class="accordion accordion2"> Dr Dharma Hagare</button>
+    <div class = "card2">
+        <p>accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed.  </p>
+    </div>
+    <button class="accordion accordion2"> Dr Jason Reynolds</button>
+    <div class = "card2">
+        <p>accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed.  </p>
+    </div>
+    <button class="accordion accordion2"> Dr Ian A. Wright</button>
+    <div class = "card2">
+        <p>accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed.  </p>
+    </div>
+    <button class="accordion accordion2"> Dr Michelle Ryan</button>
+    <div class = "card2">
+        <p>accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed.  </p>
+    </div>
+    <button class="accordion accordion2"> Assoc. Prof. Ricky Spencer </button>
+    <div class = "card2">
+        <p>accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed.  </p>
+    </div>
     <br>  
 </div>
     
@@ -193,31 +317,63 @@
   <p>accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed. accordion - next university card to be displayed.  </p>
 </div>
 
-
-  <script>
+<script>
   var acc = document.getElementsByClassName("accordion");
+  
   acc[0].classList.add("active");
   acc[0].nextElementSibling.style.maxHeight = acc[0].nextElementSibling.scrollHeight + "px";
-  for (let i = 0; i < acc.length; i++) {
+  var acc = document.getElementsByClassName("accordion");
+var i;
+var acc2 = document.getElementsByClassName("accordion2");
+for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
-    for (let j = 0; j < acc.length; j++) {
-    acc[j].classList.remove("active");
+    var parent = this.parentElement;
     
-      if(j!=i){
-        acc[j].nextElementSibling.style.maxHeight = null;
-      }
+    for (let j = 0; j < acc2.length; j++) {
+        acc2[j].classList.remove("active");
+        acc2[j].nextElementSibling.style.maxHeight = null;
     }
+    // for(let k= 0; k<acc.length; k++){
+    //   if( acc[i].classList!="accordion2" ){
+    //     acc[k].classList.remove("active");
+    //     acc[k].nextElementSibling.style.maxHeight = null;
+    //   }
+    // }
     this.classList.add("active");
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight){
       panel.style.maxHeight = null;
-      this.classList.remove("active");
     } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
+        var parent = this.parentElement;
+        parent.style.maxHeight = parseInt(parent.style.maxHeight) + panel.scrollHeight + "px";
+        panel.style.maxHeight = panel.scrollHeight + "px";
     }
   });
 }
-</script>
+//   <script>
+//   var acc = document.getElementsByClassName("accordion");
+//   acc[0].classList.add("active");
+//   acc[0].nextElementSibling.style.maxHeight = acc[0].nextElementSibling.scrollHeight + "px";
+//   for (let i = 0; i < acc.length; i++) {
+//   acc[i].addEventListener("click", function() {
+//     for (let j = 0; j < acc.length; j++) {
+//     acc[j].classList.remove("active");
+    
+//       if(j!=i){
+//         acc[j].nextElementSibling.style.maxHeight = null;
+//       }
+//     }
+//     this.classList.add("active");
+//     var panel = this.nextElementSibling;
+//     if (panel.style.maxHeight){
+//       panel.style.maxHeight = null;
+//       this.classList.remove("active");
+//     } else {
+//       panel.style.maxHeight = panel.scrollHeight + "px";
+//     }
+//   });
+// }
+// </script>
 
 
         
